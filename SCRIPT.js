@@ -39,6 +39,7 @@ var text=document.getElementById("inputbox").value;
     var result=eval(text);
     document.getElementById("inputbox").value=result;
 }    
+
     
     
     
