@@ -30,6 +30,18 @@ function clk(val){
 document.getElementById("inputbox").value=document.getElementById("inputbox").value+val;
 }    
     
+function clrdisp(){
+document.getElementById("inputbox").value=" ";
+}    
+
+function eql(){
+var text=document.getElementById("inputbox").value;
+    var result=eval(text);
+    document.getElementById("inputbox").value=result;
+}    
+    
+    
+    
     
     
     
