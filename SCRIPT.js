@@ -25,3 +25,12 @@ arr.forEach(button => {
     }
     )
 })
+    
+function clk(val){
+document.getElementById("inputbox").value=document.getElementById("inputbox").value+val;
+}    
+    
+    
+    
+    
+    
