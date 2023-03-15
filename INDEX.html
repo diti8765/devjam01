@@ -12,7 +12,7 @@
         <input type="text" placeholder="0" id="inputbox">
         <div>
             <button class="operator" onclick="clrdisap()">AC</button>
-            <button class="operator">DEL</button>
+            <button class="operator" onclick="display.value=display.value.toString().slice(0,-1)">DEL</button>
             <button class="operator" onclick="clk('%')">%</button>
             <button class="operator" onclick="clk('/')">/</button>
         </div>
