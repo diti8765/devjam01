@@ -12,7 +12,7 @@ var text=document.getElementById("inputbox").value;
     var result=eval(text);
     document.getElementById("inputbox").value=result;
 }    
-
+//delete button
   function del(){
   document.getElementById("inputbox").value=document.getElementById("inputbox").value.toString().slice(0,-1);
   }  
