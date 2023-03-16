@@ -40,7 +40,9 @@ var text=document.getElementById("inputbox").value;
     document.getElementById("inputbox").value=result;
 }    
 
-    
+  function del(){
+  document.getElementById("inputbox").value=document.getElementById("inputbox").value.toString().slice(0,-1);
+  }  
     
     
     
