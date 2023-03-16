@@ -43,10 +43,10 @@ input::placeholder{
 
 button{
     border: none;
-    width: 60px;
+    width: 80px;
     height: 60px;
     margin: 10px;
-    border-radius: 50%;
+    border-radius: 70%;
     background: transparent;
     color: white;
     font-size: 20px;
