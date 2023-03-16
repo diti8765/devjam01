@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CALCULATOR</title>
     <link rel="stylesheet" href="style.css">
+    <script src="SCRIPT.js"></script>
 </head>
 <body>
     <div class="calculator">
@@ -13,7 +14,7 @@
         <div>
             <script src=script.js>
             <button class="operator" onclick="clrdisap()">AC</button>
-            <button class="operator" onclick="display.value=display.value.toString().slice(0,-1)">DEL</button>
+            <button class="operator" onclick="del()">DEL</button>
             <button class="operator" onclick="clk('%')">%</button>
             <button class="operator" onclick="clk('/')">/</button>
         </div>
@@ -21,7 +22,7 @@
             <button onclick="clk(7)">7</button>
             <button onclick="clk(8)">8</button>
             <button onclick="clk(9)">9</button>
-            <button class="operator" onclick=clk('*')>*</button>
+            <button class="operator" onclick="clk('*')">*</button>
         </div>
         <div>
             <button onclick="clk(4)">4</button>
@@ -44,7 +45,7 @@
                 </div>
     </div>
 
-    <script src="SCRIPT.js"></script>
+   
     
 </body>
 </html>
